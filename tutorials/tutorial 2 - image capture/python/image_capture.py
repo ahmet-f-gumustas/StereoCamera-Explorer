@@ -1,24 +1,6 @@
-########################################################################
-#
-# Copyright (c) 2022, STEREOLABS.
-#
-# All rights reserved.
-#
-# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-# "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-# LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-# A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-# OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-# SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-# LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-# DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-# THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-# OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-#
-########################################################################
-
 import pyzed.sl as sl
+import os
+import cv2
 
 
 def main():
@@ -41,6 +23,11 @@ def main():
     i = 0
     image = sl.Mat()
     runtime_parameters = sl.RuntimeParameters()
+
+    if not os.path.exists("/home/moveon2/Desktop/Desktop1/All-Projects/Python-project/StereoCamera-Explorer/tutorials/tutorial 2 - image capture/python/DATA"):
+        os.makedirs("DATA")
+        print("Data directory created")
+
     while i < 50:
         # Grab an image, a RuntimeParameters object must be given to grab()
         if zed.grab(runtime_parameters) == sl.ERROR_CODE.SUCCESS:
@@ -49,6 +36,17 @@ def main():
             timestamp = zed.get_timestamp(sl.TIME_REFERENCE.CURRENT)  # Get the timestamp at the time the image was captured
             print("Image resolution: {0} x {1} || Image timestamp: {2}\n".format(image.get_width(), image.get_height(),
                   timestamp.get_milliseconds()))
+            
+            # Convert s1.Mat to umpy array
+            image_np = image.get_data()
+
+            # Convert the numpy array to BGR format (for OpenCV)
+            image_bgr = cv2.cvtColor(image_np, cv2.COLOR_RGBA2BGR)
+
+            # Save the image to the DTA directory
+            image_path = os.path.join("DATA", "imge_{:04d}.png".format(i))
+            cv2.imwrite(image_path, image_bgr)
+
             i = i + 1
 
     # Close the camera
