@@ -24,9 +24,12 @@ def main():
     image = sl.Mat()
     runtime_parameters = sl.RuntimeParameters()
 
-    if not os.path.exists("/home/moveon2/Desktop/Desktop1/All-Projects/Python-project/StereoCamera-Explorer/tutorials/tutorial 2 - image capture/python/DATA"):
+    path = os.getcwd()
+
+    if not os.path.exists(path + '/DATA'):
         os.makedirs("DATA")
         print("Data directory created")
+    
 
     while i < 50:
         # Grab an image, a RuntimeParameters object must be given to grab()
