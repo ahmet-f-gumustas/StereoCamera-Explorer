@@ -80,7 +80,7 @@ if __name__ == "__main__":
     init_fusion_parameters.coordinate_units = sl.UNIT.METER
 
     fusion.init(init_fusion_parameters)
-    fusion.enable_positionnal_tracking()
+    fusion.enable_positionnal_tracking(tracking_params)
     
     uuid = sl.CameraIdentifier(camera_info.serial_number)
     print("Subscribing to", uuid.serial_number, communication_parameters.comm_type) #Subscribe fusion to camera
