@@ -1,0 +1,304 @@
+{
+    "AI Models": {
+        "info": [
+            "REID ASSOCIATION is not optimized",
+            "NEURAL DEPTH is not optimized",
+            "NEURAL PLUS DEPTH is not optimized"
+        ],
+        "valid": [
+            "MULTI CLASS DETECTION is optimized",
+            "MULTI CLASS MEDIUM DETECTION is optimized",
+            "MULTI CLASS ACCURATE DETECTION is optimized",
+            "HUMAN BODY FAST DETECTION is optimized",
+            "HUMAN BODY MEDIUM DETECTION is optimized",
+            "HUMAN BODY ACCURATE DETECTION is optimized",
+            "HUMAN BODY 38 FAST DETECTION is optimized",
+            "HUMAN BODY 38 MEDIUM DETECTION is optimized",
+            "HUMAN BODY 38 ACCURATE DETECTION is optimized",
+            "PERSON HEAD DETECTION is optimized",
+            "PERSON HEAD ACCURATE DETECTION is optimized"
+        ]
+    },
+    "Camera Test": {
+        "InternalDevicesCount": 2,
+        "ZEDCount": 1,
+        "camera": {
+            "Device ID": 0,
+            "Firmware": 1523,
+            "Init Output": "OK",
+            "Model": "ZED 2i",
+            "Serial Number": 36472553,
+            "valid": [
+                "<b>Camera: </b>ZED 2i",
+                "<b>Firmware: </b>1523"
+            ]
+        },
+        "resolutions": {
+            "HD1080@15": {
+                "fps (input)": 15,
+                "fps (output)": 15,
+                "height (input)": 1080,
+                "height (output)": 1080,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 1920,
+                "width (output)": 1920
+            },
+            "HD1080@30": {
+                "fps (input)": 30,
+                "fps (output)": 30,
+                "height (input)": 1080,
+                "height (output)": 1080,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 1920,
+                "width (output)": 1920
+            },
+            "HD2K@15": {
+                "fps (input)": 15,
+                "fps (output)": 15,
+                "height (input)": 1242,
+                "height (output)": 1242,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 2208,
+                "width (output)": 2208
+            },
+            "HD720@15": {
+                "fps (input)": 15,
+                "fps (output)": 15,
+                "height (input)": 720,
+                "height (output)": 720,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 1280,
+                "width (output)": 1280
+            },
+            "HD720@30": {
+                "fps (input)": 30,
+                "fps (output)": 30,
+                "height (input)": 720,
+                "height (output)": 720,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 1280,
+                "width (output)": 1280
+            },
+            "HD720@60": {
+                "dropCount": 1,
+                "fps (input)": 60,
+                "fps (output)": 58,
+                "height (input)": 720,
+                "height (output)": 720,
+                "imageCount": 499,
+                "initialization": "OK",
+                "status": true,
+                "tearingCount": 0,
+                "width (input)": 1280,
+                "width (output)": 1280
+            },
+            "VGA@100": {
+                "fps (input)": 100,
+                "fps (output)": 100,
+                "height (input)": 376,
+                "height (output)": 376,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 672,
+                "width (output)": 672
+            },
+            "VGA@15": {
+                "fps (input)": 15,
+                "fps (output)": 15,
+                "height (input)": 376,
+                "height (output)": 376,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 672,
+                "width (output)": 672
+            },
+            "VGA@30": {
+                "fps (input)": 30,
+                "fps (output)": 30,
+                "height (input)": 376,
+                "height (output)": 376,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 672,
+                "width (output)": 672
+            },
+            "VGA@60": {
+                "fps (input)": 60,
+                "fps (output)": 60,
+                "height (input)": 376,
+                "height (output)": 376,
+                "initialization": "OK",
+                "status": true,
+                "width (input)": 672,
+                "width (output)": 672
+            }
+        },
+        "sensors": {
+            "Firmware": 777,
+            "Init Output": "OK",
+            "Model": "ZED 2i (MCU)",
+            "Serial Number": 36472553
+        }
+    },
+    "Devices": {
+        "CorruptedFirmware": false,
+        "MCUDetected": true,
+        "USBList": [
+            {
+                "USBMode": 3,
+                "USB_path": "/2",
+                "bDescriptorType": 1,
+                "bDeviceProtocol": 1,
+                "bLength": 18,
+                "bMaxPacketSize0": 9,
+                "bNumConfigurations": 1,
+                "bcdDevice": "1.0",
+                "bcdUSB": "3.0",
+                "bcdUSBClass": 239,
+                "bcdUSBSubClass": 2,
+                "busNumber": 4,
+                "device": "ZED2i",
+                "iManufacturer": 1,
+                "iProduct": 2,
+                "iSerial": 4,
+                "idProduct": "0xf880",
+                "idVendor": "0x2b03"
+            },
+            {
+                "USB_path": "/9",
+                "idProduct": "0x6206",
+                "idVendor": "0x0b05"
+            },
+            {
+                "USB_path": "/7",
+                "idProduct": "0x202c",
+                "idVendor": "0x322e"
+            },
+            {
+                "USBMode": 2,
+                "USB_path": "/2/2",
+                "bDescriptorType": 1,
+                "bDeviceProtocol": 0,
+                "bLength": 18,
+                "bMaxPacketSize0": 64,
+                "bNumConfigurations": 1,
+                "bcdDevice": "3.9",
+                "bcdUSB": "2.0",
+                "bcdUSBClass": 0,
+                "bcdUSBSubClass": 0,
+                "busNumber": 3,
+                "device": "ZED2i MCU",
+                "iManufacturer": 1,
+                "iProduct": 2,
+                "iSerial": 3,
+                "idProduct": "0xf881",
+                "idVendor": "0x2b03"
+            },
+            {
+                "USB_path": "/2",
+                "idProduct": "0x2512",
+                "idVendor": "0x0424"
+            },
+            {
+                "USB_path": "/10",
+                "idProduct": "0x0026",
+                "idVendor": "0x8087"
+            },
+            {
+                "USB_path": "/1",
+                "idProduct": "0xc534",
+                "idVendor": "0x046d"
+            }
+        ],
+        "USBMode": 3,
+        "ZED Camera Module Detected": 63616,
+        "ZED MCU Module Detected": 63617,
+        "ZEDDetected": true,
+        "valid": [
+            "<b>USB Bandwidth: </b> OK"
+        ]
+    },
+    "Graphics Card": {
+        "deviceCount": 1,
+        "deviceDriverVersion": 12030,
+        "devices": [
+            {
+                "arch": "Ampere",
+                "computeCapability": "8.6",
+                "cores": 3840,
+                "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+                "totalMemoryBytes": "6226378752",
+                "totalMemoryMB": 5937.9375
+            }
+        ],
+        "glx_info": "OpenGL vendor string: Intel\nOpenGL renderer string: Mesa Intel(R) Graphics (ADL GT2)\nOpenGL core profile version string: 4.6 (Core Profile) Mesa 23.2.1-1ubuntu3.1~22.04.2\nOpenGL core profile shading language version string: 4.60\nOpenGL core profile context flags: (none)\nOpenGL core profile profile mask: core profile\nOpenGL core profile extensions:\nOpenGL version string: 4.6 (Compatibility Profile) Mesa 23.2.1-1ubuntu3.1~22.04.2\nOpenGL shading language version string: 4.60\nOpenGL context flags: (none)\nOpenGL profile mask: compatibility profile\nOpenGL extensions:\nOpenGL ES profile version string: OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.2\nOpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.20\nOpenGL ES profile extensions:\n",
+        "initResult": 0,
+        "valid": [
+            "<b>Graphics card: </b> NVIDIA GeForce RTX 3060 Laptop GPU"
+        ]
+    },
+    "Processor": {
+        "OS": "Ubuntu 22.04.4 LTS ",
+        "avxSupported": true,
+        "coreCount": "16",
+        "cpu": " 12th Gen Intel(R) Core(TM) i7-12650H",
+        "datetime": "2024-06-20 01:20:45 PM",
+        "hyperThreading": "1",
+        "motherboard": "FX517ZM, ASUSTeK COMPUTER INC.",
+        "ramCapacity": "16.402309",
+        "ramUsage": "",
+        "ramUsed": "14.979351",
+        "threadCount": "32",
+        "valid": [
+            "<b>Processor: </b>  12th Gen Intel(R) Core(TM) i7-12650H",
+            "<b>Motherboard: </b> FX517ZM, ASUSTeK COMPUTER INC."
+        ]
+    },
+    "ZED SDK": {
+        "CUDA loading": false,
+        "GPU Driver Version": "Driver Version                            : 545.23.08",
+        "GPU Performance": "    Performance State                     : P0",
+        "ZED SDK Version (Diag)": "4.1.0",
+        "ZED SDK Version (RT)": "4.1.0",
+        "[Warning] Other cuda version N°0": "V12.3.107-->located in  in /usr/local/cuda-12.3/bin/nvcc",
+        "ai": {
+            "checkAI": true,
+            "cudaVersion": 12030,
+            "cudnnCudartVersion": 12020,
+            "cudnnVersion": 8907,
+            "cudnnVersionExpected": 8907,
+            "tensorVersion": 8601
+        },
+        "binFiles": [
+            "libsl_ai.so",
+            "libsl_zed.so",
+            "libsl_zed_static.a"
+        ],
+        "error": [
+            "<b>CUDA 12.1 not detected</b> <br/> Make sure CUDA is installed and restart your computer. <a href='https://download.stereolabs.com/cuda12_1_web' style='color: #d9ff42;' >Download</a>."
+        ],
+        "resourcesFiles": [
+            "neural_depth_3.6.model",
+            "objects_accurate_3.2.model",
+            "objects_medium_3.2.model",
+            "objects_performance_3.2.model",
+            "person_head_accurate_2.4.model",
+            "person_head_performance_2.4.model",
+            "person_reid_1.4.model",
+            "positional_tracking_2.2.model",
+            "skeleton_body18_3.2.model",
+            "skeleton_body38_3.5.model"
+        ],
+        "resourcesFilesExpected": [
+            "objects_performance_3.2"
+        ],
+        "valid": [
+            "<b>ZED SDK version:</b> 4.1.0"
+        ]
+    }
+}
