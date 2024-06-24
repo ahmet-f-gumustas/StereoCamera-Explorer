@@ -1,12 +1,15 @@
 # First Initiliaze
-import PyQt5.QtWidgets
+from PyQt5.QtWidgets import QWidget
 
 
 
-def main():
-    return "first code"
+class STEREO_CAM(QWidget):
+    def __init__(self):
+        print("First Try")
+
+
 
 
 
 if __name__ == "__main__":
-    main()
+    STEREO_CAM()
