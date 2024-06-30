@@ -1,0 +1,53 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="26">
+            <item index="0" class="java.lang.String" itemvalue="opencv_python" />
+            <item index="1" class="java.lang.String" itemvalue="pywin32" />
+            <item index="2" class="java.lang.String" itemvalue="protobuf" />
+            <item index="3" class="java.lang.String" itemvalue="object_detection" />
+            <item index="4" class="java.lang.String" itemvalue="pyqt5-sip" />
+            <item index="5" class="java.lang.String" itemvalue="pyfirmata" />
+            <item index="6" class="java.lang.String" itemvalue="pyserial" />
+            <item index="7" class="java.lang.String" itemvalue="numpy" />
+            <item index="8" class="java.lang.String" itemvalue="adafruit-circuitpython-ads1x15" />
+            <item index="9" class="java.lang.String" itemvalue="plotpy" />
+            <item index="10" class="java.lang.String" itemvalue="adafruit-blinka" />
+            <item index="11" class="java.lang.String" itemvalue="os-sys" />
+            <item index="12" class="java.lang.String" itemvalue="minimalmodbus" />
+            <item index="13" class="java.lang.String" itemvalue="win32compat" />
+            <item index="14" class="java.lang.String" itemvalue="os-sys-linux" />
+            <item index="15" class="java.lang.String" itemvalue="object_detection_0.1" />
+            <item index="16" class="java.lang.String" itemvalue="board" />
+            <item index="17" class="java.lang.String" itemvalue="Pillow" />
+            <item index="18" class="java.lang.String" itemvalue="tensorflow-gpu" />
+            <item index="19" class="java.lang.String" itemvalue="boto3" />
+            <item index="20" class="java.lang.String" itemvalue="pypylon" />
+            <item index="21" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="22" class="java.lang.String" itemvalue="tflite_runtime" />
+            <item index="23" class="java.lang.String" itemvalue="firebase-admin" />
+            <item index="24" class="java.lang.String" itemvalue="requests" />
+            <item index="25" class="java.lang.String" itemvalue="pynmeagps" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E127" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="cv2.data" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

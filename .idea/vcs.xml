@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/03.zed-yolo-examples/yolov5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/03.zed-yolo-examples/zed-yolo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/04-Mask-R-CNN-3d/maskrcnn-benchmark" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/04-Mask-R-CNN-3d/zed-pytorch" vcs="Git" />
+  </component>
+</project>

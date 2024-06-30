@@ -1,14 +1,17 @@
 from PyQt5.QtWidgets import QGroupBox, QGridLayout, QLabel
 from PyQt5.QtCore import Qt
 
-class DepthFrame(QGroupBox):
+
+
+
+class YOLOFrame(QGroupBox):
     def __init__(self, main):
         super().__init__()
         
         self.main = main
-        self.grid_position = [1, 1]
-        self.setTitle('Depth Frame')
-
+        self.grid_position = [1, 0]
+        self.setTitle('YOLO Frame')
+        
         self.grid_layout = QGridLayout()
 
         self.frame_label = QLabel()
